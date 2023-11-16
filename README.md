@@ -6,13 +6,14 @@ Get information about the age and committers on remote branches.
 GitHub, GitLab, Bitbucket all show the number of commits "ahead" and "behind",
 but this adds the ability to show who has committed to each branch.
 
-Quickstart
-----------
-To use, copy this script onto your path and run ```git branch-info```. 
+Quick Start
+-----------
+
+To use, copy this script onto your path and run ```git branch-info```.
 
 For more user-friendly output, try:
 
-```
+```shell
 git branch-info | sort | cut -f 2-
 ```
 
@@ -22,7 +23,7 @@ Output
 Example output from running on the [Flask](https://github.com/mitsuhiko/flask)
 repository:
 
-```
+```text
 6 years ago      0.3-maintenance         armin.ronacher (5)
 6 years ago      0.5-maintenance         armin.ronacher (4)
 6 years ago      new-logging     armin.ronacher (6)
@@ -43,10 +44,12 @@ repository:
 
 TODO
 ----
+
 - Handle remotes besides `origin`
-- Handle local branches as well as remotes. 
+- Handle local branches as well as remotes.
 - Show total number of commits ahead and behind master (or current branch)
 
 Contributing
 ------------
+
 Issues, comments and merge requests welcome!
