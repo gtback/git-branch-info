@@ -45,7 +45,6 @@ repository:
 TODO
 ----
 
-- Handle remotes besides `origin`
 - Handle local branches as well as remotes.
 - Show total number of commits ahead and behind master (or current branch)
 
